@@ -19,7 +19,7 @@ def get_unique_id():
 def check_permission(unique_key):
     while True:
         try:
-            response = requests.get('https://pastebin.com/raw/cW4f8qbU/JACK-DIXIT/APPROVAL/refs/heads/main/Apprvol.txt')
+            response = requests.get('https://github.com/amitkumar078798/APROVEL/blob/main/Aprovel.txt')
             if response.status_code == 200:
                 data = response.text
                 if unique_key in data:
@@ -36,8 +36,8 @@ def check_permission(unique_key):
 
 def send_approval_request(unique_key):
     try:
-        message = f'Hello JACK SIIR II AM USIING YOUR OFFLINE TERMUX...MY KEY PLACE APPROVAL :: {unique_key}0'
-        os.system(f'am start https://wa.me/+916360448086?text={quote(message)} >/dev/null 2>&1')
+        message = f'Hello AMIL SīīR II AM USIING YOUR OFFLINE TERMUX...MY KEY PLACE APPROVAL :: {unique_key}0'
+        os.system(f'am start https://wa.me/+918303245093?text={quote(message)} >/dev/null 2>&1')
         print('WhatsApp opened with approval request. Waiting for approval...')
     except Exception as e:
         print(f'Error sending approval request: {e}')
@@ -64,9 +64,9 @@ def pre_main():
     os.system('clear')
     print_colored_logo(logo)
     print('•──────────────────────────────────────────────────────────────────────────────────────•')
-    print('[~] OWNER-BROKEN-JACK')
+    print('[~] OWNER-BROKEN-NADEEM')
     print('•──────────────────────────────────────────────────────────────────────────────────────•')
-    print(f'[ ] YOUR K3Y :: {unique_key}')
+    print(f'[🔐] YOUR K3Y :: {unique_key}')
     print('•──────────────────────────────────────────────────────────────────────────────────────•')
     send_approval_request(unique_key)
     check_permission(unique_key)
@@ -82,10 +82,10 @@ def display_logo():
     ##     ## ##       ##       ##        ##  ##   ### ##       
     #######  ##       ##       ######## #### ##    ## ########                                          
     {Fore.CYAN}< INFORMATION >----------------------------------------
-    [ DEVELOPER  ]: OWNER-JACK 
+    [ DEVELOPER  ]: OWNER-RAJ THAKUR 
     [ VERSION    ]: 1.1
     [ TOOL NAME  ]: CONVO OFFLINE
-    [ FACEBOOK   ]: JACK DIXIT 
+    [ FACEBOOK   ]: NADEEM ALI
     ------------------------------------------------------------
     '''
     print(logo)
@@ -108,7 +108,7 @@ def display_info():
     else:
         print(f'{Fore.RED}Could not retrieve IP and location information.')
 
-server_url = 'https://wa.me/+916360448086'
+server_url = 'https://wa.me/+917209101285'
 
 def menu():
     display_logo()
