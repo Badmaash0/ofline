@@ -1,6 +1,6 @@
 ; ==============================
 ; Messenger Group Name Changer & Message Sender (AutoIt)
-; Made by DEVIL
+; Made by JACK
 ; ==============================
 
 ; MsgBox से Input लेने के लिए Variables
